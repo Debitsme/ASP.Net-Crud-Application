@@ -4,9 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
 using System.Runtime.Intrinsics.X86;
 using System.Runtime.CompilerServices;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyApp.Controllers
 {
+    [Authorize]
     public class ItemsController : Controller
     //Every controller inherits this  base controller class so that we could work with multiple methods
     {

@@ -25,5 +25,10 @@ namespace MyApp.Data
 
         public DbSet<Item> Items { get; set; }
         // A DbSet in Entity Framework Core represents a table in the database.
+
+
+        //for authentication
+
+         
     }
 }
